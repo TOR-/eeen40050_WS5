@@ -1,0 +1,31 @@
+\documentclass[article]{TOREngReport}
+
+\begin{document}
+% Define report details
+\TOREngReportDetails{Receiver Design Report}{EEEN40050 Wireless Systems}{UCD}{Tiarnach \'O Riada 16315466}
+%\maketitle
+
+\makedeclarationbox{I certify that ALL of the following are true:
+\begin{enumerate}
+	\item I have read the UCD Plagiarism Policy and the College of Engineering and Architecture Plagiarism Protocol. (These documents are available on Brightspace.)
+	\item I understand fully the definition of plagiarism and the consequences of plagiarism as discussed in 
+	the documents above.
+	\item I recognise that any work that has been plagiarised (in whole or in part) may be subject to 
+	penalties, as outlined in the documents above.
+	\item I have not previously submitted this work, or any version of it, for assessment in any other module 
+	in this University, or any other institution.
+	\item I have not plagiarised any part of this report.  The work described was done by me, and this report 
+	is all my own original work, except where otherwise acknowledged in the report.
+\end{enumerate}}{\DTMdate{2020-11-12}}
+\pagenumbering{roman}
+\pagestyle{preface}
+%\tableofcontents\cleardoublepage
+
+\pagenumbering{arabic}
+\pagestyle{body}
+% FOR EACH SECTION
+\input{src/rx_design}\newpage
+\input{src/rx_performance}
+
+\end{document}
+
